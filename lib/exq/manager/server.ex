@@ -171,7 +171,7 @@ defmodule Exq.Manager.Server do
       scheduler_poll_timeout: opts[:scheduler_poll_timeout]
     }
 
-    check_redis_connection(opts)
+#    check_redis_connection(opts)
     {:ok, state, 0}
   end
 
